@@ -15,4 +15,3 @@ enabled = true
 share = true
 
 [dependencies]
-github.com/itsfuad/ferret-remote-mod = "v0.0.1"
