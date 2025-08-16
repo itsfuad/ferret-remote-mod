@@ -8,11 +8,11 @@ output = ""
 entry = ""
 
 [cache]
-path = ".ferret/cache"
+path = ".ferret"
 
-[remote]
-enabled = true
-share = true
+[external]
+allow-sharing = true
+allow-remote-import = false
+allow-neighbor-import = false
 
 [dependencies]
-github.com/itsfuad/ferret-remote-mod = "v0.0.1"
